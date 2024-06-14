@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz_website</title>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <div class="quiz_container">
+      <div class="question_container">
+        <div class="question"></div>
+        <div class="option_container">
+          <ul class="options"></ul>
+        </div>
+        <div class="feedback"></div>
+      </div>
+      <div class="btn">
+        <button class="prev_btn" onclick="prevQuestion()" style="display: none">
+          Previous
+        </button>
+        <button class="submit_btn" onclick="submitAnswer()">Submit</button>
+        <button class="next_btn" onclick="nextQuestion()">Next</button>
+      </div>
+
+      <div class="result"></div>
+      <div class="question_numbers"></div>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
